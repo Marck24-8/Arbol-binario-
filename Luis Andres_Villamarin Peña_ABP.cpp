@@ -1,11 +1,4 @@
-/* Continuar el menú del ARBOL ABB del estudio de caso propuesto
-
-4. RECORRER ARBOL EN PREORDEN
-5. RECORRER ARBOL EN INORDEN
-6. RECORRER ARBOL EN POSTORDEN
-7. ELIMINAR NODO DEL ARBOL (3 OPCIONES)
-8. SALIR
-
+/* arbol de busqueda binaria con menu en c++
 */
 
 // librerias
@@ -234,7 +227,7 @@ void Eliminar(Nodo *arbol,int a){
 
 // funcion reemplazar dos nodos
 void reemplazar(Nodo *arbol, Nodo* nuevoNodo){
-    if(arbol->padre){// se asigna al pádre a su nuevo hijo
+    if(arbol->padre){// se asigna al pÃ¡dre a su nuevo hijo
        if(arbol->dato == arbol->padre->izquierda->dato){// asignacion del nuevo padre por la izquierda
         arbol->padre->izquierda=nuevoNodo;
     }else if (arbol->dato == arbol->padre->derecha->dato){// asignacion del nuevo padre por la derecha
